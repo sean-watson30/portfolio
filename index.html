@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Sean Watson | Portfolio</title>
   </head>
   <body>
-    <div>
+    <div class="nav">
       <header>
         <div class="profile">
-          <img src="#" alt="Sean Watson">
-          <h3><a href="index.html">Sean Watson</a></h3>
+          <img id="profile-pic" src="./photos/Profile Pic.png" alt="Sean Watson">
+          <h3 class="name-nav"><a href="index.html">Sean Watson</a></h3>
           <div class="social-links">
             <a href="https://github.com/sean-watson30">
               <ion-icon name="logo-github"></ion-icon>
@@ -23,34 +24,34 @@
         </div>
   
         <!-- Sidebar Nav -->
-        <nav>
+        <nav class="nav-body">
           <ul>
             <li>
-              <a href="#">
+              <a href="#home">
                 <ion-icon name="home-outline"></ion-icon>
                 <span>Home</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#about">
                 <ion-icon name="person-outline"></ion-icon>
                 <span>About</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#resume">
                 <ion-icon name="document-text-outline"></ion-icon>
                 <span>Resume</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#portfolio">
                 <ion-icon name="folder-open-outline"></ion-icon>
                 <span>Portfolio</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#contact">
                 <ion-icon name="mail-outline"></ion-icon>
                 <span>Contact</span>
               </a>
@@ -64,17 +65,16 @@
         <div>© Sean Watson</div>
       </footer>
     </div>
-
-    <!-- Landing Page Content -->
-    <section>
-      <h1>Sean Watson</h1>
-      <h3>Full Stack Software Engineer | Web Developer</h3>
-    </section>
-
+    
     <!-- Main Page Content -->
-    <main>
+    <main class="main">
+      <!-- Landing Page Content -->
+      <section id="home">
+        <h1>Sean Watson</h1>
+        <h3>Full Stack Software Engineer | Web Developer</h3>
+      </section>
       <!-- About Section -->
-      <div>
+      <div id="about">
         <h2>About</h2>
         <p>
           I’m a software engineer working with Python, Django, and the MERN stack. My previous career was in the arts and education: I danced professionally in Denver, Chicago, Milwaukee and for Royal Caribbean Cruises. I'm taking the creativity and discipline I've honed over my career and into my new field.
@@ -115,7 +115,7 @@
           <ion-icon name="logo-sass"></ion-icon>
       </div>
       <!-- Resume Section -->
-      <div>
+      <div id="resume">
         <h2>Resume</h2>
         <!-- Professional Experience 1 -->
         <div>
@@ -166,7 +166,7 @@
         </div>
       </div>
       <!-- Portfolio Section -->
-      <div>
+      <div id="portfolio">
         <h2>Portfolio</h2>
         <ul>
           <!-- Project 4 -->
@@ -217,7 +217,7 @@
         </ul>
       </div>
       <!-- COntact Section -->
-      <div>
+      <div id="contact">
         <h2>Contact</h2>
         <div><ion-icon name="earth-outline"></ion-icon>Location: Denver, CO</div>
         <div><ion-icon name="mail-outline"></ion-icon>Email: sean_watson30@me.com</div>

@@ -1,0 +1,57 @@
+body {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+/* _________________ NavBar Styling _________________ */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 5%;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.name-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+/* _________________ Main Content Styling _________________ */
+
+.main {
+  padding: 5%;
+}
