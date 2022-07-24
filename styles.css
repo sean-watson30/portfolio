@@ -16,6 +16,8 @@ body {
   background-color: black;
   color: white;
   margin: 0;
+  height: 100vh;
+  position: sticky;
 }
 
 #profile-pic {
@@ -39,8 +41,13 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 }
-ul {
+.nav-list {
   list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
 }
 
 li {
@@ -54,4 +61,24 @@ li {
 
 .main {
   padding: 5%;
+}
+
+.portfolio-pic {
+  max-width: 200px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
