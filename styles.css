@@ -34,6 +34,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  /* padding: 0 1% 0 1%; */
 }
 
 .nav-body {
@@ -61,6 +62,17 @@ li {
 
 .main {
   padding: 5%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.portfolio-item {
+  max-width: 50%;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .portfolio-pic {
