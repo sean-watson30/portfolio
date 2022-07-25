@@ -79,6 +79,10 @@ li {
   max-width: 200px;
 }
 
+#portfolio-pic {
+  max-width: 300px;
+}
+
 a:link {
   text-decoration: none;
 }
