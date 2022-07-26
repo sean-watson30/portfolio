@@ -4,6 +4,7 @@ body {
   flex-direction: row;
   margin: 0;
   background-color: #2c6289;
+  background-image: url(./photos/IMG_1099.JPG);
   /* background-image: url(https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
   /* background-image: linear-gradient(to bottom right, #4d3bb0, #141E61) */
 }
@@ -70,6 +71,27 @@ li {
   height: 100vh;
   overflow-y: scroll;
 }
+
+#home {
+  padding: 25% 0 25% 0;
+  color: white;
+}
+
+#about {
+  margin-top: 15%;
+}
+
+#resume, #portfolio, #contact {
+  margin-top: 10%;
+}
+
+/* #portfolio {
+  margin-top: 10%;
+}
+
+#contact {
+  margin-top: 10%;
+} */
 
 .portfolio-item {
   max-width: 50%;
