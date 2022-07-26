@@ -88,6 +88,10 @@ li {
   max-width: 300px;
 }
 
+#about-pic {
+  max-width: 300px;
+}
+
 /* .resume-list {
   list-style: disc;
 } */
