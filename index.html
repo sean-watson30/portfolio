@@ -14,7 +14,8 @@
     <title>Sean Watson | Portfolio</title>
   </head>
   <body>
-    <div class="nav">
+    <!-- <div class="nav"> -->
+    <aside class="nav">
       <header>
         <div class="profile">
           <img
@@ -44,46 +45,47 @@
         </div>
 
         <!-- Sidebar Nav -->
-        <nav class="nav-body">
+        <div class="nav-body">
+        <!-- <nav class="nav-body"> -->
           <ul class="nav-list">
             <li>
               <a class="nav-link" href="#home">
                 <ion-icon name="home-outline"></ion-icon>
-                <span>Home</span>
+                <span style="font-size: 25px;">Home</span>
               </a>
             </li>
             <li>
               <a class="nav-link" href="#about">
                 <ion-icon name="person-outline"></ion-icon>
-                <span>About</span>
+                <span style="font-size: 25px;">About</span>
               </a>
             </li>
             <li>
               <a class="nav-link" href="#portfolio">
                 <ion-icon name="folder-open-outline"></ion-icon>
-                <span>Portfolio</span>
+                <span style="font-size: 25px;">Portfolio</span>
               </a>
             </li>
             <li>
               <a class="nav-link" href="#resume">
                 <ion-icon name="document-text-outline"></ion-icon>
-                <span>Resume</span>
+                <span style="font-size: 25px;">Resume</span>
               </a>
             </li>
             <li>
               <a class="nav-link" href="#contact">
                 <ion-icon name="mail-outline"></ion-icon>
-                <span>Contact</span>
+                <span style="font-size: 25px;">Contact</span>
               </a>
             </li>
           </ul>
-        </nav>
+        </div>
       </header>
       <!-- Footer (in Sidebar) -->
-      <footer>
+      <!-- <footer>
         <div>©2022 Sean Watson</div>
-      </footer>
-    </div>
+      </footer> -->
+    </aside>
     <!-- Main Page Content -->
     <main class="main">
       <!-- Landing Page Content -->
@@ -93,7 +95,7 @@
       </section>
       <!-- About Section -->
       <div id="about">
-        <div class="card">
+        <div class="card grey lighten-3">
           <div class="card-content">
             <span class="card-title">About</span>
             <div class="row">
@@ -173,7 +175,7 @@
       </div>
       <!-- Portfolio Section -->
       <div id="portfolio">
-        <div class="card">
+        <div class="card grey lighten-3">
           <div class="card-content">
             <div class="card-title">Portfolio</div>
             <!-- <h2>Portfolio</h2> -->
@@ -420,7 +422,7 @@
       </div>
       <!-- Resume Section -->
       <div id="resume">
-        <div class="card">
+        <div class="card grey lighten-3">
           <div class="card-content">
             <span class="card-title">Resume</span>
             <div class="row">
@@ -506,12 +508,19 @@
                 </blockquote>
               </div>
             </div>
+
+            <!-- Download Link -->
+            <div class="card-action">
+              <a href="./resume/Sean Watson Resume.pdf" download>
+                <ion-icon name="download-outline"></ion-icon> Download Resume</a>
+            </div>
+
           </div>
         </div>
       </div>
       <!-- Contact Section -->
       <div id="contact">
-        <div class="card">
+        <div class="card grey lighten-3">
           <div class="card-content">
             <div class="card-title">Contact</div>
             <!-- <h2>Contact</h2> -->
@@ -534,6 +543,7 @@
         </div>
       </div>
     </main>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- IonIcons Script -->
     <script

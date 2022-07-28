@@ -3,8 +3,10 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0;
-  background-color: #2c6289;
-  background-image: url(./photos/IMG_1099.JPG);
+  /* background-color: #2c6289; */
+  /* background-image: linear-gradient(to bottom, #00ADB5, #AAD8D3, #EEEEEE); */
+  background-image: linear-gradient(to bottom, #00ADB5, #AAD8D3);
+  /* background-image: url(./photos/IMG_1099.JPG); */
   /* background-image: url(https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
   /* background-image: linear-gradient(to bottom right, #4d3bb0, #141E61) */
 }
@@ -17,7 +19,8 @@ body {
   justify-content: space-between;
   /* align-items: center; */
   padding: 5%;
-  background-color: black;
+  /* background-color: black; */
+  background-color: #464c56;
   /* background-color: #0F044C; */
   color: white;
   margin: 0;
@@ -46,23 +49,33 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  height: 50vh;
+  overflow-y: scroll;
 }
-.nav-list {
+/* .nav-list { */
   /* list-style: none; */
-  background-color: black;
-}
+  /* background-color: #393E46; */
+  /* background-color: #464c56; */
+  /* background-color: black; */
+/* } */
 
 .nav-link {
   text-decoration: none;
   color: white;
+  margin-top: 15px;
 }
 
 li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  /* justify-content: space-around; */
   margin-top: 10px;
 }
+
+/* footer {
+  position:
+} */
 
 /* _________________ Main Content Styling _________________ */
 
@@ -75,6 +88,10 @@ li {
 #home {
   padding: 25% 0 25% 0;
   color: white;
+}
+
+.card {
+  background-color: #EEEEEE;
 }
 
 #about {
